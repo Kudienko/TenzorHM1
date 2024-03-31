@@ -1,0 +1,68 @@
+@font-face {
+	font-family: "dance"; 
+	src: url(assets/fonts/Nozhik-Bold.otf);
+}
+
+
+body {
+    background-color: blanchedalmond;
+    font-family: dance;
+}
+.main__block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 60px;
+}
+
+.photo__block {
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.photo {
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+}
+
+.content {
+    margin-top: 30px;
+}
+
+.social__title, .quote__title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.quote__text__paragraph {
+    padding-top: 15px;
+}
+
+
+.social__text, .quote__text {
+    list-style-type: none;
+    font-size: 30px;
+}
+
+.icon {
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    padding-right: 10px;
+}
+
+.social__text__paragraph {
+    display: flex;
+    margin-top:15px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
